@@ -1,27 +1,20 @@
 body {
-    color: rgb(0, 0, 0);
-    background: rgb(231, 26, 146);
+    color: rgb(248, 248, 248);
+    background: rgb(240, 19, 140);
     margin: 0px;
-    font-family: "Playfair Display", serif;
-    h1 {
-        font-size: 40px;
-      }
-      p {
-        font-size: 20px;
-      }
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
     border-bottom: solid 2px rgb(255, 255, 255);
     padding: 20px;
     font-size: 32px;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 254, 255);
 }
 
-/* código omitido */
-
-section {
-    background: rgb(231, 26, 146);
+.chamada {
+    background: rgb(240, 19, 140);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -32,6 +25,36 @@ section {
     margin-right: 5%;
 }
 
-img {
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
     height: 200px;
-  }
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color: rgb(247, 251, 255);
+}
